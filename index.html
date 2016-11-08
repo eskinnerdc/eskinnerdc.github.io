@@ -1,137 +1,172 @@
 <!doctype html>
 <html>
-    <head>
-          <meta charset="utf-8">
-        <title>Dry Oar Boating | Home</title>
-    
-        <style>
-            @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
-            
-            body {
-                font-family:Arial, Helvetica, sans-serif;
-            }
-            
-            .anything {
-                width: 960px;
-                margin :0 auto;
-                font-family:"Architects Daughter", serif, sans-serif;
-                padding:1em;
-               
-                }
-            }
-            #top {
-            background-color:#FF9000;
-            }
-            
-            nav {
-                background-color:#FFEC00;
-                color:#221EE2;
-                font-size:1.1em;
-            }
-            
-            h1,h2,h3,h4,h5,h6 {
-                color:#221EE2;
-                font-family:"Architects Daughter", serif, sans-serif;
-                margin:auto;
-            }    
-            .firstpcolor {
-                color:black;
-            }
-            
-            #bottom {
-                text-align: center;
-                width:48%;
-            }
-            
-            a{
-                color:blue;
-            }
-            #alignfooter {
-                text-align: center;
-            }
-            
-            #bottom-row {
-                text-align: center;  
-            }
-            
-            section {
-                padding: 15px;
-                
-            }
-            
-            .leftcol{
-                width: 48%;
-            }
-            
-            .rightcol {
-                width:48%;
-            }
-            
-            #banner {
-                
-                
-            }
-        </style>
-   
-    </head>
 
-    <body>
-        <div class="anything">
-            
-            <img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt="Dry Oar boating logo">
-    
+<head>
+    <meta charset="utf-8">
+    <title>Dry Oar Boating | Home</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .anything {
+            width: 960px;
+            margin: 0 auto;
+            font-family: "Architects Daughter", serif, sans-serif;
+            padding: 1em;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #221EE2;
+            font-family: "Architects Daughter", serif, sans-serif;
+            margin: auto;
+        }
+        
+        .firstpcolor {
+            color: black;
+        }
+        
+        #bottom {
+            text-align: center;
+            width: 48%;
+        }
+        
+        a {
+            color: blue;
+        }
+        
+        #alignfooter {
+            text-align: center;
+            height: 55px;
+            width: 940px;
+        }
+        
+        #bottom-row {
+            text-align: center;
+            width: 48%;
+            margin-left: 250px;
+        }
+        
+        section {
+            padding: 15px;
+        }
+        
+        .leftcol,
+        .rightcol {
+            width: 48%;
+            flex: 1 0 15em;
+            margin: .5em;
+        }
+        
+        #banner {}
+        
+        .fullwidth {
+            width: 100%;
+        }
+        
+        #top-row {
+            display: flex;
+            background-color: #FF9000;
+            flex-flow: row wrap;
+            align-items: center;
+        }
+        
+        #middle-row {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+        
+        #copywrite {
+            float: left;
+            margin-top:27.5px;
+        }
+        
+        .socialmedia {
+            float: right;
+            padding: 10px;
+        }
+        
+        nav {
+            background-color: #FFEC00;
+            color: #221EE2;
+            font-size: 1.1em;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="anything">
+
+        <img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt="Dry Oar boating logo">
+
         <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="index.html">Rivers</a></li>
-        <li><a href="index.html">FAQ</a></li>
-        <li><a href="index.html">Blog</a></li>
-        <li><a href="index.html">Rates/Dates</a></li>
-        <li><a href="index.html">Contact Us</a></li>
-    </ul>
-        </nav>       
-       
-            <div id="banner"><img src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="River Wide 2"></div> 
-        
-            <section id="top-row">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Rivers</a></li>
+                <li><a href="index.html">FAQ</a></li>
+                <li><a href="index.html">Blog</a></li>
+                <li><a href="index.html">Rates/Dates</a></li>
+                <li><a href="index.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div id="banner"><img class="fullwidth" src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="River Wide 2"></div>
+
+        <section id="top-row">
             <div class="leftcol">
-           <h2>We Run Rivers To Relax</h2>
-        
-        <p class="firstpcolor">We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</p>
-           </div>
-      
-            <div class="rightcol">
-            <img src="http://brothert.net/dryoar/images/desolation-interest.jpg" alt="relax">
+                <h2>We Run Rivers To Relax</h2>
+
+                <p class="firstpcolor">We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</p>
             </div>
-            
-        </section>
-    
-        <section id="middle-row">
-       
-            <div class="leftcol"><img src="http://brothert.net/dryoar/images/ik-rapid.jpg" alt="Rapids for the soul"> </div>
-        
+
             <div class="rightcol">
-        <h2>We run Whitewater for the Rush!</h2>
-        
-                <p>That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p> </div>
-        
+                <img src="http://brothert.net/dryoar/images/desolation-interest.jpg" alt="relax">
+            </div>
+
+        </section>
+
+        <section id="middle-row">
+
+            <div class="leftcol"><img src="http://brothert.net/dryoar/images/ik-rapid.jpg" alt="Rapids for the soul"> </div>
+
+            <div class="rightcol">
+                <h2>We run Whitewater for the Rush!</h2>
+
+                <p>That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
+            </div>
+
         </section>
         <section id="bottom-row">
-    <h2>Don't wait another minute</h2>
-        
-        <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
+            <h2>Don't wait another minute</h2>
+
+            <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
         </section>
-        
+
         <footer id="alignfooter">
-            <a target="_blank" href="http://www.facebook.com"><img src="facebook.png" alt="Facebook"></a>
-            <a target="_blank" href="http://www.instagram.com"><img src="instagram.png" alt="Instagram"></a>
-            <a target="_blank" href="http://www.youtube.com"><img src="youtube.png" alt="Youtube"></a>
-            
-<p>&copy; 2016 Dry Oar || Evan $kinner <p>
-            
+            <a class="socialmedia" target="_blank" href="http://www.facebook.com"><img src="facebook.png" alt="Facebook"></a>
+            <a class="socialmedia" target="_blank" href="http://www.instagram.com"><img src="instagram.png" alt="Instagram"></a>
+            <a class="socialmedia" target="_blank" href="http://www.youtube.com"><img src="youtube.png" alt="Youtube"></a>
+
+            <p id="copywrite">&copy; 2016 Dry Oar || Evan $kinner
+                <p>
+
         </footer>
-       
-        
-        </div>
-    </body>
+
+
+    </div>
+</body>
+
 </html>
