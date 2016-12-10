@@ -27,6 +27,7 @@
   
   .firstpcolor {
       color: black;
+
   }
   
   #bottom {
@@ -130,3 +131,25 @@
       background-color: white;
       float: left;
   }
+
+#titleR {
+    background-color: #FFEC00;
+    
+}
+
+#imgone {
+    float:right;
+    padding-top:10px;
+    padding-left:10px;
+}
+
+#imgtwo {
+    
+    float:left;
+    padding-right:15px;
+    padding-top:20px;
+}
+
+#customHL {
+    padding-left:480px;
+}
