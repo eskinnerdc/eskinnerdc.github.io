@@ -1,138 +1,134 @@
    * {
-      box-sizing: border-box;
-
-@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
-      font-family: 'Architects Daughter', cursive, serif;
-
-}
-        
-        
-        .anything {
-            width: 960px;
-            margin: 0 auto;
-            font-family: "Architects Daughter", serif, sans-serif;
-            padding: 1em;
-        }
-        
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            color: #221EE2;
-            font-family: "Architects Daughter", serif, sans-serif;
-            margin: auto;
-        }
-        
-        .firstpcolor {
-            color: black;
-        }
-        
-        #bottom {
-            text-align: center;
-            width: 48%;
-        }
-        
-        a {
-            color: blue;
-            text-decoration: none;
-        }
-        
-        #alignfooter {
-            text-align: center;
-            height: 55px;
-            width: 940px;
-        }
-        
-        #bottom-row {
-            text-align: center;
-            width: 48%;
-            margin-left: 250px;
-        }
-        
-        section {
-            padding: 15px;
-        }
-        
-        .leftcol,
-        .rightcol {
-            width: 48%;
-            flex: 1 0 15em;
-            margin: .5em;
-        }
-        
-        .fullwidth {
-            width: 100%;
-        }
-        
-        #top-row {
-            display: flex;
-            background-color: #FF9000;
-            flex-flow: row wrap;
-            align-items: center;
-        }
-        
-        #middle-row {
-            display: flex;
-            flex-flow: row wrap;
-            align-items: center;
-            background-color: #FF9000;
-        }
-        
-        img {
-            max-width: 100%;
-        }
-        
-        #copywrite {
-            float: left;
-            margin-top:27.5px;
-            
-        }
-        
-        .socialmedia {
-            float: right;
-            padding: 10px;
-            
-        }
-        
-        nav {
-            background-color: #FFEC00;
-            color: #221EE2;
-            font-size: 1.2em;
-            height:3em;  
-            
-        }
-        
-        nav li  {
-            flex:auto;
-            
-        }
-
-        nav ul {
-         list-style-type: none;
-            display:flex;
-            line-height: 3em;
-            flex-flow:row wrap;
-        }
-        
-nav a:link, nav a:visited {
-    color: blue;
-            text-decoration: none;
-}
-
-nav a:hover {
-    color: blue;
-    background-color:#FF9000;
-}
-
-nav a {
-    padding:1em;
-
-}
-        #logo {
-            background-color: white;
-            float:left;
-            
-        }
-           
+       box-sizing: border-box;
+       @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+       font-family: 'Architects Daughter', cursive, serif;
+   }
+   
+   .anything {
+       width: 960px;
+       margin: 0 auto;
+       font-family: "Architects Daughter", serif, sans-serif;
+       padding: 1em;
+   }
+   
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+       color: #221EE2;
+       font-family: "Architects Daughter", serif, sans-serif;
+       margin: auto;
+   }
+   
+   .firstpcolor {
+       color: black;
+   }
+   
+   #bottom {
+       text-align: center;
+       width: 48%;
+   }
+   
+   a {
+       color: blue;
+       text-decoration: none;
+   }
+   
+   #alignfooter {
+       text-align: center;
+       height: 55px;
+       width: 940px;
+   }
+   
+   #bottom-row {
+       text-align: center;
+       width: 48%;
+       margin-left: 250px;
+   }
+   
+   section {
+       padding: 15px;
+   }
+   
+   .leftcol,
+   .rightcol {
+       width: 48%;
+       flex: 1 0 15em;
+       margin: .5em;
+   }
+   
+   .fullwidth {
+       width: 100%;
+   }
+   
+   #top-row {
+       display: flex;
+       background-color: #FF9000;
+       flex-flow: row wrap;
+       align-items: center;
+   }
+   
+   #middle-row {
+       display: flex;
+       flex-flow: row wrap;
+       align-items: center;
+       background-color: #FF9000;
+   }
+   
+   img {
+       max-width: 100%;
+   }
+   
+   #copywrite {
+       float: left;
+       margin-top: 27.5px;
+   }
+   
+   .socialmedia {
+       float: right;
+       padding: 10px;
+   }
+   
+   nav {
+       background-color: #FFEC00;
+       color: #221EE2;
+       font-size: 1.2em;
+       height: 3em;
+   }
+   
+   nav li {
+       flex: auto;
+   }
+   
+   nav ul {
+       list-style-type: none;
+       display: flex;
+       line-height: 3em;
+       flex-flow: row wrap;
+   }
+   
+   nav a:link,
+   nav a:visited {
+       color: blue;
+       text-decoration: none;
+   }
+   
+   nav a:hover {
+       color: blue;
+       background-color: #FF9000;
+   }
+   
+   nav a {
+       padding: 1em;
+   }
+   
+   #logo {
+       background-color: white;
+       float: left;
+   }
+   
+   #adjust {
+       padding-left: 70px;
+   }

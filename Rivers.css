@@ -1,11 +1,9 @@
   * {
       box-sizing: border-box;
-
-@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+      @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
       font-family: 'Architects Daughter', cursive, serif;
-
-}
-
+  }
+  
   .anything {
       width: 960px;
       margin: 0 auto;
@@ -27,7 +25,6 @@
   
   .firstpcolor {
       color: black;
-
   }
   
   #bottom {
@@ -109,13 +106,13 @@
       display: flex;
       line-height: 3em;
       flex-flow: row wrap;
+      
   }
   
   nav a:link,
   nav a:visited {
       color: blue;
       text-decoration: none;
-      font-family: serif, sans-serif;
   }
   
   nav a:hover {
@@ -131,25 +128,23 @@
       background-color: white;
       float: left;
   }
-
-#titleR {
-    background-color: #FFEC00;
-    
-}
-
-#imgone {
-    float:right;
-    padding-top:10px;
-    padding-left:10px;
-}
-
-#imgtwo {
-    
-    float:left;
-    padding-right:15px;
-    padding-top:20px;
-}
-
-#customHL {
-    padding-left:480px;
-}
+  
+  #titleR {
+      background-color: #FFEC00;
+  }
+  
+  #imgone {
+      float: right;
+      padding-top: 10px;
+      padding-left: 10px;
+  }
+  
+  #imgtwo {
+      float: left;
+      padding-right: 15px;
+      padding-top: 20px;
+  }
+  
+  #customHL {
+      padding-left: 480px;
+  }
